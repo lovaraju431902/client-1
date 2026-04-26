@@ -23,8 +23,8 @@ const LightHeader = () => (
       <div className="flex items-center gap-2 sm:gap-3">
         <a href="#" className="hidden sm:inline text-sm text-foreground/80 hover:text-foreground">Loans</a>
         <a href="#" className="hidden sm:inline text-sm text-foreground/80 hover:text-foreground">Resources</a>
-        <button className="hidden sm:inline px-4 py-1.5 text-sm rounded-full border border-border hover:bg-secondary transition-colors">Sign In</button>
-        <button className="px-4 py-1.5 text-sm rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">Sign Up</button>
+
+        <button className="px-4 py-1.5 text-sm rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">Explore</button>
       </div>
     </div>
   </header>

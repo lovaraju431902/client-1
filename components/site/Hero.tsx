@@ -12,7 +12,7 @@ const Hero = () => {
         src='/hero.png'
         alt="Curved modern luxury home in a forest at golden hour"
         className="absolute inset-0 h-full w-full object-cover"
-        initial={{ scale: 1.15 }}
+        initial={{ scale: 1.35 }}
         animate={{ scale: 1 }}
         transition={{ duration: 2.2, ease: [0.22, 1, 0.36, 1] }}
         width={1920}
@@ -38,8 +38,8 @@ const Hero = () => {
               <span
                 key={t}
                 className={`px-5 py-1.5 rounded-full text-sm border ${i === 0
-                    ? "bg-background text-primary border-transparent"
-                    : "bg-background/15 text-primary-foreground border-primary-foreground/30 backdrop-blur-md"
+                  ? "bg-background text-primary border-transparent"
+                  : "bg-background/15 text-primary-foreground border-primary-foreground/30 backdrop-blur-md"
                   }`}
               >
                 {t}
